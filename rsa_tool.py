@@ -1,6 +1,6 @@
 import rsa 
 
-public_key,private_key = rsa.newkeys(1024)
+public_key,private_key = rsa.newkeys(2048)
 
 class RsaEncryptor:
     def __init__(self,**kwargs):
